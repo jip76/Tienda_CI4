@@ -8,5 +8,6 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->presenter('pelicula');
+$routes->presenter('categoria');
 
 //$routes->get('/pelicula', 'Pelicula::index');
